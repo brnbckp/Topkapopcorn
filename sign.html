@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.11/tailwind.min.css"
+      integrity="sha512-KO1h5ynYuqsFuEicc7DmOQc+S9m2xiCKYlC3zcZCSEw0RGDsxcMnppRaMZnb0DdzTDPaW22ID/gAGCZ9i+RT/w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/sign.css" />
+    <title>Kayıt Ol!</title>
+  </head>
+  <body>
+    <div class="background" id="background"></div>
+    <div class="bg-white rounded p-10 text-center shadow-md">
+      <h1 class="text-3xl">Kayıt Ol!</h1>
+      <p class="text-sm pt-1 text-gray-700">
+        Kayıt Ol! Eğlenceye Katıl!
+      </p>
+      <div class="my-4 text-left">
+        <label for="email" class="text-gray-900">E-Posta:</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          class="border block w-full p-2 mt-2 rounded"
+          placeholder="E-postanızı girin."
+        />
+      </div>
+      <div class="my-4 text-left">
+        <label for="password" class="text-gray-900">Şifre:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="border block w-full p-2 mt-2 rounded"
+          placeholder="Şifrenizi giriniz."
+        />
+      </div>
+      <button
+        type="submit"
+        class="bg-black text-white py-2 mt-4 inline-block w-full rounded hover:bg-gray-800"
+      >
+        Kayıt Ol!
+      </button>
+      <br>
+      <a href="log.html">Zaten Hesabım Var.</a>
+    </div>
+    <div class="text-center mt-4">
+      <a href="main-page.html" class="text-gray-700 inline-block border-b-2 border-gray-700 hover:border-gray-900">
+        Ana Sayfaya Dön
+      </a>
+    </div>
+    <script src="scripts/sign.js"></script>
+  </body>
+</html>
